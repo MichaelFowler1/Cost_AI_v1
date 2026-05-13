@@ -1,0 +1,16 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Local Data/Results (keeps your repo clean)
+*.csv
+*.json
+!pyproject.toml 
+
+# OS junk
+.DS_Store
