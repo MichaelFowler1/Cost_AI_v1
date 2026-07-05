@@ -4,6 +4,10 @@ This repository contains the foundational Python library and command-line interf
 
 The core is designed to help analysts fit log-log learning curves to historical production data, project future unit costs, and run Monte Carlo simulations to understand cost risk and confidence intervals (e.g., P50, P80).
 
+![Learning-curve forecast and Monte Carlo cost risk](docs/hero.png)
+
+*Real output — `cost_core` fits an 85% Wright learning curve to the bundled `data.csv` and forecasts future lots (left), then runs a 10,000-iteration Monte Carlo total-cost simulation with P50/P80/P90 thresholds (right). Regenerate with `python make_hero.py`.*
+
 ## Features
 
 * **Data Ingestion & Fitting:** Safely load historical cost data and calculate theoretical learning curve slopes (log-log regression).
