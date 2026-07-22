@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Cost_AI_v1"
+abstract: "A Python-based toolkit for learning curve fitting, cost forecasting, and Monte Carlo risk simulation."
+authors:
+  - family-names: "Fowler"
+    given-names: "Michael"
+    alias: "MichaelFowler1"
+repository-code: "https://github.com/MichaelFowler1/Cost_AI_v1"
+url: "https://github.com/MichaelFowler1/Cost_AI_v1"
+license: "Apache-2.0"
+date-released: "2026-05-13"
